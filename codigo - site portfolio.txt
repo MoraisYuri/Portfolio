@@ -1,0 +1,162 @@
+Criando um Site de Portfólio com WhatsApp | Aprenda HTML, CSS e JavaScript
+DEVCLUB:::: https://www.youtube.com/watch?v=V1vmK3EOCuI
+
+
+
+
+
+html5
+
+
+menu de navegação::::
+
+<body>
+<nav class="navegacao">
+<ul>
+<li>
+<a href="#inicio">inicio<a/>
+</li>
+<li>
+<a href="#sobre">sobre</a>
+</li>
+<li>
+<a href="#projetos">projetos</a>
+</li>
+<li>
+<a href="#contato">contato</a>
+</li>
+</ul>
+</nav>
+
+
+<main id="inicio" class="cabecalho">
+<div> src=".imagem/foto.jpg" alt="foto de Yuri Morais" class="foto-perfil">
+<h1> Yuri Morais</h1>
+<p>Ininciante em Dev Front End</p>
+</div>
+</main>
+<section id="sobre" class="sobre">
+<h2 class="sobre-tituloi">sobre mim</h2>
+<div class="sobre-caixa">
+<p class="sobre-paragrafo">
+(colocar o termo lorem , ELE VAI CRIAR UM TEXTO ALEATORIO)
+</p>
+</div>
+</section>
+
+<section id="projetos" class="projetos">
+<h2 class="projetos-titulo">meus projetos</h2>
+<div class="projetos-caixa">
+
+<div class="projetos-card">
+<img src="./imag/foto.jpg" alt="projeto 1" class="projetos-imagem">
+<h3 class="info-projetos">corretora de seguros</h3>
+<p class="paragrafo-projetos">corretora online</p>
+</div>
+
+<div class="projetos-card">
+<img src="./imag/foto.jpg" alt="projeto 2" class="projetos-imagem">
+<h3 class="info-projetos">restaurante</h3>
+<p class="paragrafo-projetos">restaurante online</p>
+</div>
+
+<div class="projetos-card">
+<img src="./imag/foto.jpg" alt="projeto 3" class="projetos-imagem">
+<h3 class="info-projetos">confeitaria</h3>
+<p class="paragrafo-projetos">confeitaria online</p>
+</div>
+</div>
+</section>
+
+
+<section id="contatos" class="contatos">
+<h2 class="contatos-titulo">contatos</h2>
+<form class="formulario-contato" id="formulario">
+<div class="grupo-form">
+<input placeholder="nome" class="campo-form">
+</div>
+<div class="grupo-form">
+<textarea class="text-forma" placeholder="Digite sua mensagem"></textarea>
+</div>
+</form>
+</section>
+</body>
+
+
+
+
+
+
+
+**************************************
+***************************************
+
+juntando com o css
+
+
+PARA MIGRAR COM O CSS
+
+no topo do html
+
+<head>
+
+abaixo de <meta name>
+vai escolher
+
+<link:css>
+
+ele vai linkar coma pagina .css
+vai ficar deste jeito
+
+<link rel="styleshett" href="style.css">
+
+vai ficar acima do titulo da pagina
+
+
+*****
+
+.CSS
+
+
+* {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
